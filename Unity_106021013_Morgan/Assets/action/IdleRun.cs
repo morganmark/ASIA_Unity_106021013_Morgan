@@ -21,8 +21,8 @@ public class IdleRun : MonoBehaviour
     public Animator ani;
     private void RunAndIdle()
     {
-        print(Input.GetAxis("Horizontal"));
-        print(Input.GetAxis("Vertical"));
+        //print(Input.GetAxis("Horizontal"));
+        //print(Input.GetAxis("Vertical"));
 
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
